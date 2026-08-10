@@ -35,19 +35,17 @@ Determine how many apples and oranges fall on Sam's house.
 
 import java.util.*;
 
-public class AppleAndOrange 
-{
+public class AppleandOranges {
 
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         int s = 7;
         int t = 10;
 
         int a = 4;
         int b = 12;
 
-        int[] apples = {2, 3, -4};
-        int[] oranges = {3, -2, -4};
+        int[] apples = { 2, 3, -4 };
+        int[] oranges = { 3, -2, -4 };
 
         int appleCount = 0;
         int orangeCount = 0;
